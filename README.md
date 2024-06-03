@@ -36,8 +36,6 @@ O Git Flow é um modelo de fluxo de trabalho para o Git que define uma estrutura
 
 - **Feature**: O branch "feature" é usado para desenvolver novas funcionalidades. Cada funcionalidade é desenvolvida em um branch separado, que é criado a partir do branch "develop". Após a conclusão do desenvolvimento, o branch "feature" é mesclado de volta no branch "develop".
 
-- **Release**: O branch "release" é usado para preparar uma nova versão do projeto para implantação. Ele é criado a partir do branch "develop" e contém as alterações finais antes da versão ser lançada. Após a conclusão do processo de release, o branch "release" é mesclado no branch "main" e também no branch "develop".
-
 - **Hotfix**: O branch "hotfix" é usado para corrigir bugs críticos em produção. Ele é criado a partir do branch "main" e contém as correções necessárias. Após a conclusão do processo de hotfix, o branch "hotfix" é mesclado no branch "main" e também no branch "develop".
 
 ### Esquema explicativo
