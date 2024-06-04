@@ -53,6 +53,7 @@ Aqui estão alguns comandos básicos do Git para começar:
 - `git pull`: Atualiza o repositório local com as alterações do repositório remoto.
 - `git branch`: Lista os branches existentes.
 - `git checkout <branch>`: Alterna para um branch específico.
+-  `git checkout -b <branch>`: Cria e alterna para a branch criada.
 - `git merge <branch>`: Realiza o merge das alterações de um branch em outro.
 
 Lembre-se de consultar a documentação oficial do Git para obter mais informações sobre esses comandos e outros recursos.
